@@ -29,7 +29,7 @@
     > 
       <%= if @current_user do %>
         <.link href={~p"/users/settings"}
-        class="menu-item border-b border-white border-opacity-50"
+        class="dropdown-menu-arrow menu-item border-b border-white border-opacity-50"
         role="menuitem"
         tabindex="-1"
         method="get"
@@ -59,7 +59,7 @@
         class="menu-item"
         role="menuitem"
         tabindex="-1"
-        method="get"
+        method="delete"
         id="user-meu-item-3"
         >
           Sign Out
