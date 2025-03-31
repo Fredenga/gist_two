@@ -25,7 +25,7 @@
     </button>
 
     <div
-    id="dropdown_menu" hidden="true"
+    id="dropdown_menu" hidden="true" phx-click-away={GistTwoWeb.Layouts.App.toggle_dropdown_menu()}
     class="absolute right-0 mt-2 py-2 w-48 bg-emDark rounded-lg shadow-xl border border-white"
     > 
       <%= if @current_user do %>
